@@ -8,7 +8,11 @@ const suono3 = "FIZZBUZZ!";
 for(let i=0; i<100; i++){
     let num = i+1;
     let multipliDiTre = num % 3;
+    let multipliDiCinque = num % 5;
     if(multipliDiTre === 0){
         console.log(num+" è multiplo di 3: "+suono1);
+    }
+    if(multipliDiCinque === 0){
+        console.log(num+" è multiplo di 5: "+suono2);
     }
 }
