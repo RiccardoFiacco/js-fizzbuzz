@@ -4,5 +4,6 @@
 //stampo i multipli comuni
 
 for(let i=0; i<100; i++){
-console.log(i)
+    let num = i+1;
+    console.log(num);
 }
