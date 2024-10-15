@@ -9,17 +9,13 @@ for (let i = 0; i < 100; i++) {
   let num = i + 1;
   let multipliDiTre = num % 3;
   let multipliDiCinque = num % 5;
-  let flag = false;
   if (multipliDiTre === 0 && multipliDiCinque === 0) {
     //console.log(num + " è multiplo di entrambi: " + suono3);
     console.log(suono3);
-    flag = true;
-  }
-  if (multipliDiTre === 0 && !flag) {
+  }else if (multipliDiTre === 0) {
     //console.log(num + " è multiplo di 3: " + suono1);
     console.log(suono1);
-  }
-  if (multipliDiCinque === 0 && !flag) {
+  }else if (multipliDiCinque === 0) {
     //console.log(num + " è multiplo di 5: " + suono2);
     console.log(suono2);
   }
