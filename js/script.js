@@ -18,5 +18,7 @@ for (let i = 0; i < 100; i++) {
   }else if (multipliDiCinque === 0) {
     //console.log(num + " è multiplo di 5: " + suono2);
     console.log(suono2);
+  }else{
+    console.log(num);
   }
 }
